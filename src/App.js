@@ -33,7 +33,7 @@ const router = createBrowserRouter(
 function App() {
   return (
       <div className='App'>
-        <BrowserRouter basename='/Appli_resto_react' router={router} />
+        <BrowserRouter basename={process.env.REACT_APP_URI} router={router} />
       </div>
   )
 }
