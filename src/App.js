@@ -1,5 +1,5 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter, createBrowserRouter } from 'react-router-dom';
 import Admin from './pages/Admin';
 import Reservation from './pages/Reservation';
 import NotFound from './pages/404';
@@ -35,7 +35,7 @@ function App() {
   return (
       <div className='App'>
 
-        <RouterProvider router={router} />
+        <BrowserRouter router={router} />
 
       </div>
   )
