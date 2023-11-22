@@ -29,7 +29,7 @@ const router = createBrowserRouter(
   ]
 )
 
-getAllReservations()
+// getAllReservations()
 
 function App() {
   return (

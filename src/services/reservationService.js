@@ -1,14 +1,14 @@
 
 
-const jsonUrl = 'http://localhost:3000'
+// const jsonUrl = 'http://localhost:3000'
 
 
-export async function getAllReservations() {
+// export async function getAllReservations() {
 
-}
+// }
 
 
 
-export default function createReservation() {
-    return jsonUrl.post("/reservation", data)
-}
+// export default function createReservation() {
+//     return jsonUrl.post("/reservation", data)
+// }
