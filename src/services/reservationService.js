@@ -1,6 +1,6 @@
 
 
-const jsonUrl = 'http://localhost:4000'
+const jsonUrl = 'http://localhost:3000'
 
 
 export async function getAllReservations() {
