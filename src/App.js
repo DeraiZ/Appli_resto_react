@@ -10,19 +10,19 @@ import bootstrap from 'bootstrap/dist/css/bootstrap.css'
 const router = createBrowserRouter(
   [
     {
-      path: '/Appli_resto_react//',
+      path: '/',
       element: <Reservation />
     },
     {
-      path: '/Appli_resto_react//reservation',
+      path: '/reservation',
       element: <Reservation />
     },
     {
-      path: '/Appli_resto_react//admin',
+      path: '/admin',
       element: <Admin />
     },
     {
-      path: '/Appli_resto_react/*',
+      path: '*',
       element: <NotFound />
     }
   ]
@@ -33,7 +33,7 @@ const router = createBrowserRouter(
 function App() {
   return (
       <div className='App'>
-        <BrowserRouter router={router} />
+        <BrowserRouter basename='/Appli_resto_react' router={router} />
       </div>
   )
 }
